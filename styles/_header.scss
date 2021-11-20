@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./mixin";
+
+header {
+
+    @include flexCenter(column, grey);
+    button{
+        background: $primaryBtn;
+        &:hover {
+            opacity: 50%;
+        }
+    }
+}

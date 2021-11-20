@@ -1,0 +1,16 @@
+@import "./header";
+@import "./variables";
+@import "./mixin";
+
+.contact {
+    @extend header;
+    background-color: rgb(113, 167, 149);
+    margin-right: 25vw;
+    margin-left: 25vw; // can do calculations in sass
+}
+
+
+// the below code is commented out to use the same container for another example
+// .contact { 
+//     @include flexCenter(row, rgb(117, 149, 196));
+// }
